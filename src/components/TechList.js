@@ -19,7 +19,7 @@ import TechItem from './TechItem';
   }
 
   componentDidUpdate(_, prevState) {
-    // executado sempre que ouver uma alteração nas props ou estado
+    // executado sempre que houver uma alteração nas props ou estado
    // this.props || this.state
    if (prevState.techs !== this.state.techs ) {
      localStorage.setItem('techs', JSON.stringify(this.state.techs))
