@@ -130,3 +130,31 @@ nav > div i {
   font-weight: bold;
   margin-right: 6px;
 }
+.inputComment {
+  margin-left: -8px;
+  width: 102%;
+  height: 40px;
+  border: 2.5px solid #eeeeee;
+  border-radius: 50px;
+  background-color: #eeeeee;
+  padding-left: 12px;
+}
+.inputComment::placeholder {
+  color: #3e3e3e;
+}
+.inputComment:hover {
+  animation-name: changeBgColor;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  
+}
+.inputComment:focus {
+  background-color: white;
+}
+
+@keyframes changeBgColor {
+  100% {
+    background-color: white;
+  }
+}

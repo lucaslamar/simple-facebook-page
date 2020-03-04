@@ -63,13 +63,14 @@ class PostList extends Component {
         {posts.map(post => (
           <PostItem key={post.id} {...post} />
         ))}
-         <input 
+         <input className="inputComment"
         type="text" 
         onKeyDown={this.handleSub} 
         onChange={this.handleInputChange} 
         value={this.state.newTech}
+        placeholder="Insira uma mensagem"
       />
-      <button type="button" onClick={this.handleSub}>Adicionar</button>
+      {/* <button type="button" onClick={this.handleSub}>Adicionar</button> */}
       </div>
     );
   }
