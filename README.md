@@ -6,7 +6,7 @@
 
 </h3>
 <p align="center">
-  <b>Uma simples replica do Facebook para estudar os conceitos de Recact.</p>
+  <b>Uma simples replica do Facebook para estudar os conceitos de React.</p>
 
 ![demo](src/assets/face.gif)
 
